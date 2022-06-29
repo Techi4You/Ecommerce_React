@@ -40,8 +40,7 @@ const SingleProduct = () => {
     }, [])
 
     return (
-        <div className="container-fluid" key={products.id}>
-            <button className="mb-12 font-bold" onClick={() => { history.goBack() }}>Back</button>
+        <div className="container-fluid" key={products.id}> 
             <div className="container mt-5 mb-5">
                 <div className="row d-flex justify-content-center">
                     <div className="col-md-10">
@@ -59,7 +58,10 @@ const SingleProduct = () => {
                                 <div className="col-md-6">
                                     <div className="product-card p-4">
                                         <div className="d-flex justify-content-between align-items-center">
-                                            <div className="d-flex align-items-center"> <i className="fa fa-long-arrow-left"></i> <span className="ml-1">Back</span> </div> <i className="fa fa-shopping-cart text-muted"></i>
+                                            <div className="btn d-flex align-items-center" onClick={() => { history.goBack() }}>  
+                                            <i className="fa fa-long-arrow-left"> </i> 
+                                            <span> Back </span> </div>
+                                             <i className="fa fa-shopping-cart text-muted"></i>
                                         </div>
                                         <div className="mt-4 mb-3"> <span className="text-uppercase text-muted brand">Orianz</span>
                                             <h5 className="text-uppercase">{products.title}</h5>
@@ -68,7 +70,7 @@ const SingleProduct = () => {
                                                 <div className="ml-2"> <small className="dis-price"> Rs. {products.mrp}</small> <span>{products.discount}% OFF</span> </div>
                                             </div>
                                         </div>
-                                        <p className="about">Shop from a wide range of t-shirt from orianz. Pefect for your everyday use, you could pair it with a stylish pair of jeans or trousers complete the look.</p>
+                                        <p className="about">{products.short_desc} </p>
                                         <div className="sizes mt-5">
                                             <h6 className="text-uppercase">Size</h6>
                                             <label className="radio">
