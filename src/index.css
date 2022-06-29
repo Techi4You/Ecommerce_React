@@ -1,0 +1,61 @@
+ 
+.main-footer {
+	background-color: #4527A0;
+}
+
+.top-part { 
+	background-color: #512DA8;
+}
+
+.center-content {
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+.btn-pink {
+	border-radius: 0;
+	background-color: #FF4081;
+	color: #fff !important;
+	letter-spacing: 2px;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.btn-pink:hover {
+	background-color: #F50057;
+}
+
+.line {
+	border-top: 1px solid #7B1FA2;
+	width: 90% !important;
+}
+
+.fa-mobile {
+	font-size: 20px;
+}
+
+#contact {
+	font-size: 15px;
+}
+
+.grey-text {
+	color: lightgrey;
+}
+.product{
+	border: 1px solid rgb(216, 206, 206);
+	margin-top: 10px;
+	padding: 5px;
+	box-shadow: 1px 1px 5px 1px rgb(94, 93, 93);
+}
+.product img{
+	height: 180px;
+	margin:  0 auto;
+	display: block;
+}
+.product h4{
+	font-size: 1rem;
+	text-align: center;
+}
+
+.product-card{background-color: #eee}.brand{font-size: 13px}.act-price{color:red;font-weight: 700}.dis-price{text-decoration: line-through}.about{font-size: 14px}.color{margin-bottom:10px}label.radio{cursor: pointer}label.radio input{position: absolute;top: 0;left: 0;visibility: hidden;pointer-events: none}label.radio span{padding: 2px 9px;border: 2px solid #ff0000;display: inline-block;color: #ff0000;border-radius: 3px;text-transform: uppercase}label.radio input:checked+span{border-color: #ff0000;background-color: #ff0000;color: #fff}.btn-danger{background-color: #ff0000 !important;border-color: #ff0000 !important}.btn-danger:hover{background-color: #da0606 !important;border-color: #da0606 !important}.btn-danger:focus{box-shadow: none}.cart i{margin-right: 10px}
